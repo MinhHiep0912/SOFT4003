@@ -3,10 +3,10 @@
 Báo cáo Bài tập Kiểm thử phần mềm
 
 - Thông tin cá nhân : 
-  **Họ và tên:** Lê Minh Hiệp
-  **Mã sinh viên:** BIT230152
-  **Lớp:** SOFT5
-  **Môn học:** Kiểm thử phần mềm
+  + **Họ và tên:** Lê Minh Hiệp
+  + **Mã sinh viên:** BIT230152
+  + **Lớp:** SOFT5
+  + **Môn học:** Kiểm thử phần mềm
 
 ## Tuần 1: 5/1/2026 - 11/1/2026 :
 
