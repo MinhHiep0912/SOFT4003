@@ -16,27 +16,30 @@ Báo cáo Bài tập Kiểm thử phần mềm
 2. Hoàn thành Bài tập thực hành 2: Student Analyzer - Unit Test with JUnit
 
   2.1. Mô tả
-    Chương trình phân tích điểm số học sinh:
-    Đếm số học sinh đạt loại Giỏi (>= 8.0)
-    Tính điểm trung bình các điểm hợp lệ (0–10)
-    Dữ liệu không hợp lệ (<0 hoặc >10) sẽ bị bỏ qua.
+  
+    - Chương trình phân tích điểm số học sinh:
+    - Đếm số học sinh đạt loại Giỏi (>= 8.0)
+    - Tính điểm trung bình các điểm hợp lệ (0–10)
+    - Dữ liệu không hợp lệ (<0 hoặc >10) sẽ bị bỏ qua.
 
   2.2. Công nghệ
+  
     - Java 21
     - Maven
     - JUnit 5
 
   2.3. Cấu trúc thư mục:
-    ```
-      unit-test/
-      ├── src/main/java/analyzer
-      ├── src/test/java/analyzer
-      └── pom.xml
-    ```
+  
+    unit-test/
+    ├── src/main/java/analyzer
+    ├── src/test/java/analyzer
+    └── pom.xml
+
 
 ## Tuần 2: 12/1/2026 - 18/1/2026:
 
 1. Hoàn thành Bài tập thực hành 3: Kiểm thử tự động End-to-End với Cypress
+   
   1.1. Công nghệ.
 
     - Node.js
@@ -44,6 +47,7 @@ Báo cáo Bài tập Kiểm thử phần mềm
     - Trang web kiểm thử: https://www.saucedemo.com
 
   1.2. Các kịch bản kiểm thử
+  
     - Kịch bản 1: Kiểm tra đăng nhập thành công
       - Truy cập trang https://www.saucedemo.com
       - Nhập thông tin hợp lệ:
@@ -75,7 +79,7 @@ Báo cáo Bài tập Kiểm thử phần mềm
       - Xác minh URL chuyển sang trang xác nhận thanh toán (`/checkout-step-two.html`)
   
   1.3. Cấu trúc thư mục
-    ```
+
       cypress-exercise
       ├── cypress/
       │ ├── e2e/
@@ -87,5 +91,5 @@ Báo cáo Bài tập Kiểm thử phần mềm
       ├── cypress.config.js
       ├── package.json
       └── package-lock.json
-    ```
+
     
